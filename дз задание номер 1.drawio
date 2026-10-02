@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="v1VcAKHN-Zd_c_M3Q45Y">
+    <mxGraphModel dx="1704" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Начало&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Ввод : Возраст,Цена" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;" value="Возраст &amp;lt; 7?" vertex="1">
+          <mxGeometry height="100" width="140" x="320" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Возраст &amp;lt; 18?" vertex="1">
+          <mxGeometry height="90" width="140" x="320" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Итоговая цена = Цена" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Итоговая цена = 0" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-7" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rel3GroSLIz2-mbRlNqm-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="270" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-8" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Rel3GroSLIz2-mbRlNqm-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="270" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-10" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rel3GroSLIz2-mbRlNqm-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="500" as="sourcePoint" />
+            <mxPoint x="460" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-11" connectable="0" parent="Rel3GroSLIz2-mbRlNqm-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.0392" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-12" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rel3GroSLIz2-mbRlNqm-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="500" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-13" connectable="0" parent="Rel3GroSLIz2-mbRlNqm-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.0167" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Итоговая цена = Цена/2" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-15" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rel3GroSLIz2-mbRlNqm-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="600" as="sourcePoint" />
+            <mxPoint x="630" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-20" connectable="0" parent="Rel3GroSLIz2-mbRlNqm-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Да" vertex="1">
+          <mxGeometry relative="1" x="0.283" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-16" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rel3GroSLIz2-mbRlNqm-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="700" as="sourcePoint" />
+            <mxPoint x="460" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-17" connectable="0" parent="Rel3GroSLIz2-mbRlNqm-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.1092" y="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Вывод : Итоговая цена" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Конец" vertex="1">
+          <mxGeometry height="80" width="120" x="550" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-21" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="Rel3GroSLIz2-mbRlNqm-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="700" as="sourcePoint" />
+            <mxPoint x="460" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-24" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-6" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rel3GroSLIz2-mbRlNqm-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="410" />
+              <mxPoint x="770" y="750" />
+              <mxPoint x="610" y="750" />
+            </Array>
+            <mxPoint x="410" y="700" as="sourcePoint" />
+            <mxPoint x="610" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-25" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-14" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rel3GroSLIz2-mbRlNqm-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="700" as="sourcePoint" />
+            <mxPoint x="610" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rel3GroSLIz2-mbRlNqm-26" edge="1" parent="1" source="Rel3GroSLIz2-mbRlNqm-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rel3GroSLIz2-mbRlNqm-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="980" as="sourcePoint" />
+            <mxPoint x="460" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
